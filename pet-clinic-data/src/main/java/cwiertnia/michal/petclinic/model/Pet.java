@@ -1,7 +1,6 @@
 package cwiertnia.michal.petclinic.model;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 public class Pet {
 

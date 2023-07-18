@@ -1,0 +1,5 @@
+cwiertnia\michal\petclinic\model\Person.class
+cwiertnia\michal\petclinic\model\Owner.class
+cwiertnia\michal\petclinic\model\PetType.class
+cwiertnia\michal\petclinic\model\Pet.class
+cwiertnia\michal\petclinic\model\Vet.class
