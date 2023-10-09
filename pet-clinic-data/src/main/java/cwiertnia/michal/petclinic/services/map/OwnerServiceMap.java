@@ -5,9 +5,11 @@ import cwiertnia.michal.petclinic.model.Pet;
 import cwiertnia.michal.petclinic.services.OwnerService;
 import cwiertnia.michal.petclinic.services.PetService;
 import cwiertnia.michal.petclinic.services.PetTypeService;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 @Service
+@Primary
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     private final PetTypeService petTypeService;
     private final PetService petService;
