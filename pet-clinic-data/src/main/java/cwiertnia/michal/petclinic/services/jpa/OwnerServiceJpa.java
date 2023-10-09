@@ -10,8 +10,8 @@ import org.springframework.stereotype.Service;
 import java.util.HashSet;
 import java.util.Set;
 
-@Service("nazwa")
-
+@Service
+@Profile("jpa")
 public class OwnerServiceJpa implements OwnerService {
 
     private final OwnerRepository ownerRepository;
