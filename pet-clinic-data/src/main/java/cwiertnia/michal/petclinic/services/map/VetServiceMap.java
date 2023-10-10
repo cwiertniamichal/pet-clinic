@@ -3,9 +3,11 @@ package cwiertnia.michal.petclinic.services.map;
 import cwiertnia.michal.petclinic.model.Vet;
 import cwiertnia.michal.petclinic.services.SpecialityService;
 import cwiertnia.michal.petclinic.services.VetService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 @Service
+@Profile({"default", "map"})
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     private final SpecialityService specialityService;

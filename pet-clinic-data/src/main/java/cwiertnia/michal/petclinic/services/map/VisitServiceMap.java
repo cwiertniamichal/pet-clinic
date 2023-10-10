@@ -2,9 +2,11 @@ package cwiertnia.michal.petclinic.services.map;
 
 import cwiertnia.michal.petclinic.model.Visit;
 import cwiertnia.michal.petclinic.services.VisitService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 @Service
+@Profile({"default", "map"})
 public class VisitServiceMap extends AbstractMapService<Visit, Long> implements VisitService {
     @Override
     public Visit save(Visit visit) {
