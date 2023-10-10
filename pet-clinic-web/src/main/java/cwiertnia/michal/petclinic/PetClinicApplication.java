@@ -10,9 +10,7 @@ public class PetClinicApplication {
 
 	public static void main(String[] args) {
 
-		ApplicationContext ctx = SpringApplication.run(PetClinicApplication.class, args);
-		OwnerServiceJpa ownerServiceJpa = ctx.getBean("nazwa", OwnerServiceJpa.class);
-		System.out.println(ownerServiceJpa);
+		SpringApplication.run(PetClinicApplication.class, args);
 	}
 
 }
