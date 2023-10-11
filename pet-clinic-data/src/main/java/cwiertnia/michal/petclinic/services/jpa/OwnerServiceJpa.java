@@ -3,7 +3,6 @@ package cwiertnia.michal.petclinic.services.jpa;
 import cwiertnia.michal.petclinic.model.Owner;
 import cwiertnia.michal.petclinic.repositories.OwnerRepository;
 import cwiertnia.michal.petclinic.services.OwnerService;
-import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
