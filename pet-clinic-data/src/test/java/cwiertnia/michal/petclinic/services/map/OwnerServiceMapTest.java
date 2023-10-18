@@ -77,7 +77,7 @@ class OwnerServiceMapTest {
         assertEquals(ownerId, owner.getId());
         assertEquals(LAST_NAME, owner.getLastName());
     }
-    
+
     @Test
     void findByLastNameNotFound() {
         Owner owner = ownerServiceMap.findByLastName("Not existing");
